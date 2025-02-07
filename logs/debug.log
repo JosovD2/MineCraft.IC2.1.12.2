@@ -1,0 +1,370 @@
+[20:33:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:33:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:33:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:33:22] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[20:33:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[20:33:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_431, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_431
+[20:33:22] [main/DEBUG] [FML]: Java classpath at launch is:
+[20:33:22] [main/DEBUG] [FML]:     C:\Users\Владислав Кудрин\vlad\minecraft-server-1.12.2\forge-1.12.2-14.23.5.2860.jar
+[20:33:22] [main/DEBUG] [FML]: Java library path at launch is:
+[20:33:22] [main/DEBUG] [FML]:     C:\Program Files\Java\jre1.8.0_431\bin
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS\Sun\Java\bin
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS
+[20:33:22] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\java8path
+[20:33:22] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[20:33:22] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[20:33:22] [main/DEBUG] [FML]:     C:\Program Files\dotnet\
+[20:33:22] [main/DEBUG] [FML]:     C:\Program Files\PuTTY\
+[20:33:22] [main/DEBUG] [FML]:     C:\Program Files\Docker\Docker\resources\bin
+[20:33:22] [main/DEBUG] [FML]:     C:\Users\Владислав Кудрин\AppData\Local\Programs\Python\Launcher\
+[20:33:22] [main/DEBUG] [FML]:     C:\Users\Владислав Кудрин\AppData\Local\Microsoft\WindowsApps
+[20:33:22] [main/DEBUG] [FML]:     C:\Users\Владислав Кудрин\AppData\Local\Programs\Microsoft VS Code\bin
+[20:33:22] [main/DEBUG] [FML]:     
+[20:33:22] [main/DEBUG] [FML]:     .
+[20:33:22] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\Владислав Кудрин\vlad\minecraft-server-1.12.2\libraries
+[20:33:22] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[20:33:22] [main/DEBUG] [FML]: Examining file: industrialcraft-2-2.8.222-ex112.jar
+[20:33:22] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[20:33:22] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[20:33:22] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[20:33:22] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:33:22] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[20:33:22] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[20:33:22] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[20:33:22] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[20:33:22] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:33:22] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[20:33:22] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[20:33:22] [main/DEBUG] [FML]: Discovering coremods
+[20:33:22] [main/INFO] [FML]: Searching C:\Users\Владислав Кудрин\vlad\minecraft-server-1.12.2\.\mods for mods
+[20:33:22] [main/DEBUG] [FML]:   Adding industrialcraft-2-2.8.222-ex112.jar to the mod list
+[20:33:22] [main/DEBUG] [FML]: Examining for coremod candidacy industrialcraft-2-2.8.222-ex112.jar
+[20:33:22] [main/DEBUG] [FML]: Not found coremod data in industrialcraft-2-2.8.222-ex112.jar
+[20:33:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:33:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:33:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:33:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:33:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:33:22] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[20:33:22] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[20:33:22] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[20:33:22] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[20:33:22] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[20:33:22] [main/DEBUG] [FML]: Injection complete
+[20:33:22] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[20:33:22] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[20:33:23] [main/DEBUG] [FML]: Read 1154 binary patches
+[20:33:23] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[20:33:24] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:33:24] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[20:33:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:33:24] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[20:33:24] [main/DEBUG] [FML]: Injection complete
+[20:33:24] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[20:33:24] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[20:33:24] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[20:33:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:33:24] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[20:33:24] [main/DEBUG] [FML]: Validating minecraft
+[20:33:24] [main/DEBUG] [FML]: Minecraft validated, launching...
+[20:33:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:33:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:33:24] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:33:28] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[20:33:28] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[20:33:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:33:29] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
+java.io.IOException: Неверный дескриптор
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_431]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_431]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [nz$2.class:?]
+[20:33:29] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[20:33:29] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:33:29] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[20:33:29] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[20:33:29] [Server thread/DEBUG] [FML]: File C:\Users\Владислав Кудрин\vlad\minecraft-server-1.12.2\config\injectedDependencies.json not found. No dependencies injected
+[20:33:29] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[20:33:30] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[20:33:30] [Server thread/DEBUG] [FML]: Minecraft is a file at C:\Users\Владислав Кудрин\vlad\minecraft-server-1.12.2\forge-1.12.2-14.23.5.2860.jar, loading
+[20:33:30] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[20:33:30] [Server thread/INFO] [FML]: Searching C:\Users\Владислав Кудрин\vlad\minecraft-server-1.12.2\.\mods for mods
+[20:33:30] [Server thread/DEBUG] [FML]:   Adding industrialcraft-2-2.8.222-ex112.jar to the mod list
+[20:33:30] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file industrialcraft-2-2.8.222-ex112.jar
+[20:33:30] [Server thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2860.jar for potential mods
+[20:33:30] [Server thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2860.jar appears to be missing an mcmod.info file
+[20:33:30] [Server thread/DEBUG] [FML]: Examining file industrialcraft-2-2.8.222-ex112.jar for potential mods
+[20:33:30] [Server thread/TRACE] [FML]: Located mcmod.info file in file industrialcraft-2-2.8.222-ex112.jar
+[20:33:30] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (ic2.core.IC2) - loading
+[20:33:30] [Server thread/TRACE] [FML]: Parsed dependency info for ic2: Requirements: [forge@[13.20.0.2206,)] After:[forge@[13.20.0.2206,)] Before:[]
+[20:33:30] [Server thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[20:33:30] [Server thread/TRACE] [FML]: Received a system property request ''
+[20:33:30] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[20:33:30] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[20:33:30] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:33:30] [Server thread/DEBUG] [FML]: Enabling mod ic2
+[20:33:30] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[20:33:30] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[20:33:30] [Server thread/TRACE] [FML]: All mod requirements are satisfied
+[20:33:30] [Server thread/TRACE] [FML]: Sorting mods into an ordered list
+[20:33:30] [Server thread/TRACE] [FML]: Mod sorting completed successfully
+[20:33:30] [Server thread/DEBUG] [FML]: Mod sorting data
+[20:33:30] [Server thread/DEBUG] [FML]: 	ic2(IndustrialCraft 2:2.8.222-ex112): industrialcraft-2-2.8.222-ex112.jar (required-after:forge@[13.20.0.2206,))
+[20:33:30] [Server thread/DEBUG] [FML]: Loading @Config anotation data
+[20:33:30] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[20:33:30] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[20:33:30] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0,004s
+[20:33:30] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[20:33:30] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[20:33:30] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0,001s
+[20:33:30] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[20:33:31] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[20:33:31] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[20:33:31] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[20:33:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ic2] at CLIENT
+[20:33:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ic2] at SERVER
+[20:33:31] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[20:33:31] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0,306s
+[20:33:31] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[20:33:31] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[20:33:31] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[20:33:31] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[20:33:31] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[20:33:31] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[20:33:31] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)
+[20:33:31] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[20:33:31] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[20:33:31] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0,339s
+[20:33:31] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod ic2
+[20:33:31] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[20:33:31] [Server thread/DEBUG] [forge]: 	ic2/core/item/tool/HandHeldInventory$1
+[20:33:32] [Server thread/TRACE] [FML]: Mod ic2 is using network checker : Accepting version 2.8.222-ex112
+[20:33:32] [Server thread/TRACE] [FML]: Testing mod ic2 to verify it accepts its own version in a remote connection
+[20:33:32] [Server thread/TRACE] [FML]: The mod ic2 accepts its own version (2.8.222-ex112)
+[20:33:32] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ic2
+[20:33:32] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ic2
+[20:33:32] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into ic2 for type INSTANCE
+[20:33:32] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod ic2
+[20:33:32] [Server thread/DEBUG] [FML]: Bar Step: Construction - IndustrialCraft 2 took 0,664s
+[20:33:32] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 1,315s
+[20:33:32] [Server thread/DEBUG] [FML]: Mod signature data
+[20:33:32] [Server thread/DEBUG] [FML]:  	Valid Signatures:
+[20:33:32] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2860.jar
+[20:33:32] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.5.2860)	forge-1.12.2-14.23.5.2860.jar
+[20:33:32] [Server thread/DEBUG] [FML]: 		(de041f9f6187debbc77034a344134053277aa3b0) ic2	(IndustrialCraft 2	2.8.222-ex112)	industrialcraft-2-2.8.222-ex112.jar
+[20:33:32] [Server thread/DEBUG] [FML]:  	Missing Signatures:
+[20:33:32] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[20:33:32] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[20:33:32] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[20:33:32] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[20:33:32] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:33:32] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:33:32] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[20:33:32] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[20:33:32] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0,000s
+[20:33:32] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[20:33:32] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[20:33:32] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,000s
+[20:33:32] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[20:33:32] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[20:33:32] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0,000s
+[20:33:32] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[20:33:32] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:33:32] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[20:33:32] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0,070s
+[20:33:32] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod ic2
+[20:33:32] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:33:32] [Server thread/DEBUG] [ic2.General]: Starting pre-init.
+[20:33:33] [Server thread/TRACE] [ic2.Resource]: Successfully loaded server localization.
+[20:33:37] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.3",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.4.0",
+    "1.19.2-latest": "43.4.16",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.3.0",
+    "1.19.4-latest": "45.3.20",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.3.0",
+    "1.20.1-latest": "47.3.27",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.1.29",
+    "1.20.4-recommended": "49.1.0",
+    "1.20.6-latest": "50.1.39",
+    "1.20.6-recommended": "50.1.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.0.47",
+    "1.21.3-latest": "53.0.44",
+    "1.21.4-latest": "54.0.26"
+  }
+}
+[20:33:37] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[20:33:42] [Server thread/DEBUG] [ic2.Block]: Successfully built BlockTileEntity for identity ic2:te.
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[20:33:45] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[20:33:45] [Server thread/DEBUG] [ic2.Recipe]: 0 recipes failed to load in the first pass.
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity MiningLaser as ic2:mining_laser
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity Dynamite as ic2:dynamite
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity StickyDynamite as ic2:sticky_dynamite
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity Itnt as ic2:itnt
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity Nuke as ic2:nuke
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity BoatCarbon as ic2:carbon_boat
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity BoatRubber as ic2:rubber_boat
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity BoatElectric as ic2:electric_boat
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity Particle as ic2:particle
+[20:33:46] [Server thread/TRACE] [FML]: Automatically registered mod ic2 entity FireproofItem as ic2:fireproof_item
+[20:33:46] [Server thread/DEBUG] [ic2.General]: Finished pre-init after 13364 ms.
+[20:33:46] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod ic2
+[20:33:46] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - IndustrialCraft 2 took 13,366s
+[20:33:46] [Server thread/DEBUG] [FML]: Bar Finished: PreInitialization took 13,437s
+[20:33:46] [Server thread/INFO] [FML]: Applying holder lookups
+[20:33:46] [Server thread/INFO] [FML]: Holder lookups applied
+[20:33:46] [Server thread/INFO] [FML]: Applying holder lookups
+[20:33:46] [Server thread/INFO] [FML]: Holder lookups applied
+[20:33:46] [Server thread/INFO] [FML]: Applying holder lookups
+[20:33:46] [Server thread/INFO] [FML]: Holder lookups applied
+[20:33:46] [Server thread/INFO] [FML]: Applying holder lookups
+[20:33:46] [Server thread/INFO] [FML]: Holder lookups applied
+[20:33:46] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:33:46] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[20:33:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[20:33:46] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[20:33:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** FAILED TO BIND TO PORT!
+[20:33:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The exception was: java.net.BindException: Address already in use: bind
+[20:33:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: Perhaps a server is already running on that port?
+[20:33:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:33:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:33:47] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[20:33:47] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[20:33:47] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0,000s
+[20:33:47] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[20:33:47] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[20:33:47] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,001s
+[20:33:47] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[20:33:47] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[20:33:47] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[20:33:47] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[20:33:47] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[20:33:47] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[20:33:47] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod ic2
+[20:33:47] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod ic2
+[20:33:47] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - IndustrialCraft 2 took 0,000s
+[20:33:47] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0,002s
+[20:33:47] [Server thread/INFO] [FML]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+[20:33:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:33:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

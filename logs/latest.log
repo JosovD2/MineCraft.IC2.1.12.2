@@ -1,0 +1,25 @@
+[20:33:57] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[20:33:57] [Server thread/INFO]: Loading properties
+[20:33:57] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Неверный дескриптор
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_431]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_431]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
+	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
+[20:33:57] [Server thread/INFO]: Default game type: SURVIVAL
+[20:33:57] [Server thread/INFO]: Generating keypair
+[20:33:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:33:57] [Server thread/INFO]: Using default channel type
+[20:33:57] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[20:33:57] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[20:33:57] [Server thread/WARN]: Perhaps a server is already running on that port?
+[20:33:57] [Server thread/INFO]: Stopping server
+[20:33:57] [Server Shutdown Thread/INFO]: Stopping server
