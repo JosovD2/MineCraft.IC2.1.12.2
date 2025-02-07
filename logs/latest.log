@@ -1,6 +1,23 @@
-[20:33:57] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[20:33:57] [Server thread/INFO]: Loading properties
-[20:33:57] [Server console handler/ERROR]: Exception handling console input
+[23:12:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[23:12:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[23:12:59] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[23:12:59] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_431, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_431
+[23:12:59] [main/INFO] [FML]: Searching C:\Users\urban\minecraft\MineCraft.IC2.1.12.2\.\mods for mods
+[23:12:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:12:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:13:00] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[23:13:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:13:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:13:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:13:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:13:00] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[23:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[23:13:03] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[23:13:03] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
 java.io.IOException: Неверный дескриптор
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_431]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_431]
@@ -13,13 +30,89 @@ java.io.IOException: Неверный дескриптор
 	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_431]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
-	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
-[20:33:57] [Server thread/INFO]: Default game type: SURVIVAL
-[20:33:57] [Server thread/INFO]: Generating keypair
-[20:33:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:33:57] [Server thread/INFO]: Using default channel type
-[20:33:57] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[20:33:57] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
-[20:33:57] [Server thread/WARN]: Perhaps a server is already running on that port?
-[20:33:57] [Server thread/INFO]: Stopping server
-[20:33:57] [Server Shutdown Thread/INFO]: Stopping server
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [nz$2.class:?]
+[23:13:03] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[23:13:03] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[23:13:03] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[23:13:03] [Server thread/INFO] [FML]: Searching C:\Users\urban\minecraft\MineCraft.IC2.1.12.2\.\mods for mods
+[23:13:03] [Server thread/WARN] [FML]: Mod falling_tree is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.0
+[23:13:04] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[23:13:04] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[23:13:04] [Server thread/WARN] [FML]: Missing English translation for falling_tree: assets/falling_tree/lang/en_us.lang
+[23:13:04] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[23:13:04] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, falling_tree, ic2, inventorysorter, journeymap] at CLIENT
+[23:13:04] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, falling_tree, ic2, inventorysorter, journeymap] at SERVER
+[23:13:05] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[23:13:05] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[23:13:05] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[23:13:05] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[23:13:05] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[23:13:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[23:13:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
+[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
+[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
+[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
+[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
+[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
+[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
+[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
+[23:13:12] [Server thread/INFO] [FML]: Injecting itemstacks
+[23:13:12] [Server thread/INFO] [FML]: Itemstack injection complete
+[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[23:13:12] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:13:13] [Server thread/INFO] [FML]: Applying holder lookups
+[23:13:13] [Server thread/INFO] [FML]: Holder lookups applied
+[23:13:14] [Server thread/INFO] [FML]: Injecting itemstacks
+[23:13:14] [Server thread/INFO] [FML]: Itemstack injection complete
+[23:13:14] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[23:13:14] [Server thread/INFO] [ic2.General]: ic2 version 2.8.222-ex112 loaded.
+[23:13:14] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
+[23:13:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[23:13:15] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6b122a9e)
+[23:13:15] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[23:13:15] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6b122a9e)
+[23:13:15] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6b122a9e)
+[23:13:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[23:13:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
+[23:13:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3,053s)! For help, type "help" or "?"
+[23:13:18] [Server thread/INFO] [FML]: Unloading dimension -1
+[23:13:18] [Server thread/INFO] [FML]: Unloading dimension 1
+[23:13:26] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[23:13:26] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 19 mods : minecraft@1.12.2,inventorysorter@1.13.3+57,FML@8.0.99.99,dynamiclights_entityclasses@1.0.1,bettercombatmod@1.5.1,dynamiclights_otherplayers@1.0.9,tlauncher_custom_cape_skin@1.4,dynamiclights_dropitems@1.1.0,dynamiclights_theplayer@1.1.3,falling_tree@2.4.0,dynamiclights_onfire@1.0.7,dynamiclights_mobequipment@1.1.0,dynamiclights_floodlights@1.0.3,dynamiclights_creepers@1.0.6,dynamiclights_flamearrows@1.0.1,dynamiclights@1.4.8,forge@14.23.5.2860,ic2@2.8.222-ex112,mcp@9.42
+[23:13:26] [Netty Server IO #1/INFO] [journeymap]: CLIENT
+[23:13:26] [Netty Server IO #1/INFO] [FML]: Attempting connection with missing mods [journeymap] at CLIENT
+[23:13:27] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:13:27] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: JosovD2[/127.0.0.1:54922] logged in with entity id 388 at (-12.5, 67.0, 201.5)
+[23:13:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 joined the game
+[23:13:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: JosovD2 lost connection: Disconnected
+[23:13:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 left the game
+[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[23:14:16] [Server thread/INFO] [FML]: Unloading dimension 0
+[23:14:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:14:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:14:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
