@@ -1,23 +1,23 @@
-[23:12:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:12:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[23:12:59] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[23:12:59] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_431, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_431
-[23:12:59] [main/INFO] [FML]: Searching C:\Users\urban\minecraft\MineCraft.IC2.1.12.2\.\mods for mods
-[23:12:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:12:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:12:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:13:00] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[23:13:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:13:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[23:13:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[23:13:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[23:13:00] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[23:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[23:13:03] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[23:13:03] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
+[22:13:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:13:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:13:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:13:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[22:13:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_431, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_431
+[22:13:22] [main/INFO] [FML]: Searching C:\Users\urban\minecraft\MineCraft.IC2.1.12.2\.\mods for mods
+[22:13:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:13:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:13:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:13:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:13:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:13:23] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:13:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:13:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:13:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:13:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:13:24] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:13:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[22:13:27] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[22:13:27] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
 java.io.IOException: Неверный дескриптор
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_431]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_431]
@@ -31,88 +31,182 @@ java.io.IOException: Неверный дескриптор
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_431]
 	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [nz$2.class:?]
-[23:13:03] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[23:13:03] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[23:13:03] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[23:13:03] [Server thread/INFO] [FML]: Searching C:\Users\urban\minecraft\MineCraft.IC2.1.12.2\.\mods for mods
-[23:13:03] [Server thread/WARN] [FML]: Mod falling_tree is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.0
-[23:13:04] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
-[23:13:04] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[23:13:04] [Server thread/WARN] [FML]: Missing English translation for falling_tree: assets/falling_tree/lang/en_us.lang
-[23:13:04] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
-[23:13:04] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, falling_tree, ic2, inventorysorter, journeymap] at CLIENT
-[23:13:04] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, falling_tree, ic2, inventorysorter, journeymap] at SERVER
-[23:13:05] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[23:13:05] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[23:13:05] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[23:13:05] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[23:13:05] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[23:13:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[23:13:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
-[23:13:12] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
-[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
-[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
-[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
-[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
-[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
-[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
-[23:13:12] [Server thread/INFO] [FML]: Applying holder lookups
-[23:13:12] [Server thread/INFO] [FML]: Holder lookups applied
-[23:13:12] [Server thread/INFO] [FML]: Injecting itemstacks
-[23:13:12] [Server thread/INFO] [FML]: Itemstack injection complete
-[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[23:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[23:13:12] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
-[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:13:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:13:13] [Server thread/INFO] [FML]: Applying holder lookups
-[23:13:13] [Server thread/INFO] [FML]: Holder lookups applied
-[23:13:14] [Server thread/INFO] [FML]: Injecting itemstacks
-[23:13:14] [Server thread/INFO] [FML]: Itemstack injection complete
-[23:13:14] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
-[23:13:14] [Server thread/INFO] [ic2.General]: ic2 version 2.8.222-ex112 loaded.
-[23:13:14] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
-[23:13:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[23:13:15] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6b122a9e)
-[23:13:15] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[23:13:15] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6b122a9e)
-[23:13:15] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6b122a9e)
-[23:13:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[23:13:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
-[23:13:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3,053s)! For help, type "help" or "?"
-[23:13:18] [Server thread/INFO] [FML]: Unloading dimension -1
-[23:13:18] [Server thread/INFO] [FML]: Unloading dimension 1
-[23:13:26] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[23:13:26] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 19 mods : minecraft@1.12.2,inventorysorter@1.13.3+57,FML@8.0.99.99,dynamiclights_entityclasses@1.0.1,bettercombatmod@1.5.1,dynamiclights_otherplayers@1.0.9,tlauncher_custom_cape_skin@1.4,dynamiclights_dropitems@1.1.0,dynamiclights_theplayer@1.1.3,falling_tree@2.4.0,dynamiclights_onfire@1.0.7,dynamiclights_mobequipment@1.1.0,dynamiclights_floodlights@1.0.3,dynamiclights_creepers@1.0.6,dynamiclights_flamearrows@1.0.1,dynamiclights@1.4.8,forge@14.23.5.2860,ic2@2.8.222-ex112,mcp@9.42
-[23:13:26] [Netty Server IO #1/INFO] [journeymap]: CLIENT
-[23:13:26] [Netty Server IO #1/INFO] [FML]: Attempting connection with missing mods [journeymap] at CLIENT
-[23:13:27] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[23:13:27] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: JosovD2[/127.0.0.1:54922] logged in with entity id 388 at (-12.5, 67.0, 201.5)
-[23:13:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 joined the game
-[23:13:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: JosovD2 lost connection: Disconnected
-[23:13:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 left the game
-[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[23:14:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[23:14:16] [Server thread/INFO] [FML]: Unloading dimension 0
-[23:14:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[23:14:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[23:14:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:13:27] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:13:27] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:13:27] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:13:27] [Server thread/INFO] [FML]: Searching C:\Users\urban\minecraft\MineCraft.IC2.1.12.2\.\mods for mods
+[22:13:28] [Server thread/WARN] [FML]: Mod falling_tree is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.0
+[22:13:29] [Server thread/INFO] [FML]: Forge Mod Loader has identified 21 mods to load
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for bettercombatmod: assets/bettercombatmod/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for falling_tree: assets/falling_tree/lang/en_us.lang
+[22:13:29] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[22:13:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettercombatmod, block_display, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, divinerpg, falling_tree, ic2, inventorysorter, journeymap, melonlib] at CLIENT
+[22:13:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettercombatmod, block_display, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, divinerpg, falling_tree, ic2, inventorysorter, journeymap, melonlib] at SERVER
+[22:13:31] [Server thread/INFO] [divinerpg.DivineRPG]: Creating registries
+[22:13:31] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:13:31] [Server thread/INFO] [FML]: Found 2369 ObjectHolder annotations
+[22:13:31] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:13:31] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:13:31] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:13:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:13:31] [Server thread/INFO] [block_display]: Initializing packets
+[22:13:31] [Server thread/INFO] [block_display]: Registering default TE text handlers
+[22:13:31] [Server thread/INFO] [BuildCraft]: 
+[22:13:31] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.8
+[22:13:31] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[22:13:31] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[22:13:31] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[22:13:31] [Server thread/INFO] [BuildCraft]:   Branch HEAD
+[22:13:31] [Server thread/INFO] [BuildCraft]:   Commit 68370005a10488d02a4bb4b8df86bbc62633d216
+[22:13:31] [Server thread/INFO] [BuildCraft]:     Bump version for release relase, fix a java 13+ compile error, tweak changelog, and fix engines chaining one block more than they should have.
+[22:13:31] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[22:13:31] [Server thread/INFO] [BuildCraft]: 
+[22:13:31] [Server thread/INFO] [BuildCraft]: Loaded Modules:
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - lib
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - core
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - builders
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - energy
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - factory
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - robotics
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - silicon
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - transport
+[22:13:31] [Server thread/INFO] [BuildCraft]:   - compat
+[22:13:31] [Server thread/INFO] [BuildCraft]: Missing Modules:
+[22:13:31] [Server thread/INFO] [BuildCraft]: 
+[22:13:32] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[22:13:32] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: UP_TO_DATE Target: null
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: UP_TO_DATE Target: null
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG/1.12.2/divinerpg_update.json
+[22:13:34] [Forge Version Check/INFO] [forge.VersionCheck]: [divinerpg] Found status: UP_TO_DATE Target: null
+[22:13:42] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
+[22:13:42] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[22:13:42] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[22:13:43] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[22:13:43] [Server thread/INFO] [BuildCraft]: 
+[22:13:43] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.8
+[22:13:43] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[22:13:43] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[22:13:43] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[22:13:43] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
+[22:13:43] [Server thread/INFO] [BuildCraft]:   Commit 16adfdb3d6a3362ba3659be7d5e9b7d12af7eee5
+[22:13:43] [Server thread/INFO] [BuildCraft]:     Bump for release.
+[22:13:43] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[22:13:43] [Server thread/INFO] [BuildCraft]: 
+[22:13:43] [Server thread/INFO] [BuildCraft]: [compat] Module list:
+[22:13:43] [Server thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[22:13:43] [Server thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[22:13:43] [Server thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
+[22:13:43] [Server thread/INFO] [BuildCraft]: [compat]   + ic2
+[22:13:44] [Server thread/INFO] [divinerpg]: Maximum mob health increased to Double.MAX_VALUE (1.7976931348623157e+308)
+[22:13:44] [Server thread/INFO] [divinerpg]: Registering DivineRPG blocks
+[22:13:44] [Server thread/INFO] [FML]: Applying holder lookups
+[22:13:44] [Server thread/INFO] [FML]: Holder lookups applied
+[22:13:44] [Server thread/INFO] [divinerpg]: Registering DivineRPG items
+[22:13:44] [Server thread/INFO] [divinerpg]: Registering DivineRPG block items
+[22:13:44] [Server thread/INFO] [divinerpg]: Registering DivineRPG weapons
+[22:13:45] [Server thread/INFO] [divinerpg]: Registering DivineRPG armor
+[22:13:45] [Server thread/INFO] [divinerpg]: Registering DivineRPG tools
+[22:13:45] [Server thread/INFO] [FML]: Applying holder lookups
+[22:13:45] [Server thread/INFO] [FML]: Holder lookups applied
+[22:13:45] [Server thread/INFO] [divinerpg]: Registering armor descriptions
+[22:13:45] [Server thread/INFO] [FML]: Applying holder lookups
+[22:13:45] [Server thread/INFO] [FML]: Holder lookups applied
+[22:13:45] [Server thread/INFO] [FML]: Applying holder lookups
+[22:13:45] [Server thread/INFO] [FML]: Holder lookups applied
+[22:13:45] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:13:45] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:13:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:13:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:13:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[22:13:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:13:45] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[22:13:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:13:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:13:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:13:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:13:47] [Server thread/INFO] [FML]: Applying holder lookups
+[22:13:47] [Server thread/INFO] [FML]: Holder lookups applied
+[22:13:47] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the ocean oil biome.
+[22:13:47] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the desert oil biome.
+[22:13:47] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil spout generator
+[22:13:47] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil biome initiializer
+[22:13:47] [Server thread/INFO] [divinerpg]: Registering custom triggers
+[22:13:47] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:13:47] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:13:48] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[22:13:48] [Server thread/INFO] [ic2.General]: ic2 version 2.8.222-ex112 loaded.
+[22:13:48] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 21 mods
+[22:13:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:13:48] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:13:49] [Server thread/INFO] [FML]: Applying holder lookups
+[22:13:49] [Server thread/INFO] [FML]: Holder lookups applied
+[22:13:50] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:50] [Netty Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[22:13:51] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 600 advancements
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 420 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 421 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 422 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 423 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 424 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 425 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 426 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [FML]: Loading dimension 427 (world) (net.minecraft.server.dedicated.DedicatedServer@16c9423)
+[22:13:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:13:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[22:13:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 77%
+[22:13:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (5,084s)! For help, type "help" or "?"
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 420
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 421
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 422
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 423
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 424
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 425
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 426
+[22:13:54] [Server thread/INFO] [FML]: Unloading dimension 427
+[22:13:55] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[22:13:55] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 32 mods : minecraft@1.12.2,buildcraftlib@7.99.24.8,inventorysorter@1.13.3+57,dynamiclights_entityclasses@1.0.1,buildcraftsilicon@7.99.24.8,buildcraftenergy@7.99.24.8,buildcrafttransport@7.99.24.8,dynamiclights_dropitems@1.1.0,dynamiclights_theplayer@1.1.3,falling_tree@2.4.0,dynamiclights_mobequipment@1.1.0,dynamiclights_floodlights@1.0.3,dynamiclights_flamearrows@1.0.1,dynamiclights@1.4.9,ic2@2.8.222-ex112,buildcraftbuilders@7.99.24.8,mcp@9.42,buildcraftfactory@7.99.24.8,journeymap@1.12.2-5.7.1p2,melonlib@1.2,FML@8.0.99.99,block_display@1.1,bettercombatmod@1.5.1,buildcraftcompat@7.99.24.8,dynamiclights_otherplayers@1.0.9,tlauncher_custom_cape_skin@1.4,dynamiclights_onfire@1.0.7,dynamiclights_creepers@1.0.6,forge@14.23.5.2860,divinerpg@1.7.1,buildcraftcore@7.99.24.8,buildcraftrobotics@7.99.24.8
+[22:13:55] [Netty Server IO #2/INFO] [journeymap]: CLIENT
+[22:13:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:13:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: JosovD2[/127.0.0.1:62560] logged in with entity id 401 at (-60.42997974167631, 68.0, 171.69999998807907)
+[22:13:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 joined the game
+[22:13:57] [Netty Server IO #2/INFO] [block_display]: Received packet to test if Block Display is available
+[22:14:54] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2400ms behind, skipping 48 tick(s)
+[22:15:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 has made the advancement [Monster Hunter]
+[22:16:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: JosovD2 lost connection: Disconnected
+[22:16:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JosovD2 left the game
+[22:16:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:16:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:16:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:16:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[22:16:42] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:16:42] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:16:42] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:16:42] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
